@@ -2,7 +2,7 @@ import { Building2, Target, TrendingUp } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section className="py-24 px-6 relative">
+    <section id="sobre" className="py-24 px-6 relative">
       {/* Darker background for contrast */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background -z-10" />
       

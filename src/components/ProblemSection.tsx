@@ -2,7 +2,7 @@ import { AlertCircle, TrendingDown, Clock } from "lucide-react";
 
 const ProblemSection = () => {
   return (
-    <section className="py-24 px-6">
+    <section id="problema" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="glass rounded-3xl p-12 md:p-16 space-y-8 animate-slide-up">
           <div className="space-y-6 text-center max-w-3xl mx-auto">

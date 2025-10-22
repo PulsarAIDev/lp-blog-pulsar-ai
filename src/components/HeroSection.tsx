@@ -15,14 +15,7 @@ const HeroSection = () => {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-glow-pulse" style={{ animationDelay: '1s' }} />
       </div>
 
-      <div className="max-w-5xl mx-auto text-center space-y-8 animate-fade-in">
-        {/* Logo placeholder - você pode substituir depois */}
-        <div className="mb-8">
-          <h2 className="text-2xl font-bold tracking-tight" style={{ fontFamily: 'Outfit, sans-serif', fontWeight: 100 }}>
-            Pulsar<span className="text-primary">.AI</span>
-          </h2>
-        </div>
-
+      <div className="max-w-5xl mx-auto text-center space-y-8 animate-fade-in pt-20">
         {/* Headline */}
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight tracking-tight" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
