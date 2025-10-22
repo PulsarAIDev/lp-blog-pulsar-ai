@@ -62,6 +62,13 @@ const FinalCTASection = () => {
           <p className="text-sm text-muted-foreground pt-6">
             ⚡ Diagnóstico gratuito • 🎯 Sem compromisso • 🚀 Resultados mensuráveis
           </p>
+          
+          {/* Blog link */}
+          <div className="pt-8 border-t border-white/10">
+            <a href="/blog" className="text-white/60 hover:text-primary transition-colors text-sm font-medium">
+              📝 Confira nosso blog com insights semanais →
+            </a>
+          </div>
         </div>
       </div>
     </section>
