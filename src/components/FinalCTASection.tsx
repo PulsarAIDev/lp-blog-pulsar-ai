@@ -4,7 +4,7 @@ import { ArrowRight, AlertTriangle } from "lucide-react";
 const FinalCTASection = () => {
   const handleCTA = () => {
     const message = encodeURIComponent("Olá! Vi a landing page da Pulsar e quero automatizar meu negócio. Podemos conversar?");
-    window.open(`https://wa.me/5511999999999?text=${message}`, '_blank');
+    window.open(`https://wa.me/5527997118556?text=${message}`, '_blank');
   };
 
   return (
@@ -65,7 +65,7 @@ const FinalCTASection = () => {
           
           {/* Blog link */}
           <div className="pt-8 border-t border-white/10">
-            <a href="/blog" className="text-white/60 hover:text-primary transition-colors text-sm font-medium">
+            <a href="https://blog.pulsarai.com.br/" className="text-white/60 hover:text-primary transition-colors text-sm font-medium">
               📝 Confira nosso blog com insights semanais →
             </a>
           </div>

@@ -46,18 +46,18 @@ const Header = () => {
                 {item.label}
               </button>
             ))}
-            <Link 
-              to="/blog"
+            <a 
+              href="https://blog.pulsarai.com.br/"
               className="text-sm font-medium text-white/70 hover:text-white transition-colors duration-300"
             >
               Blog
-            </Link>
+            </a>
           </nav>
 
           {/* CTA Button - Desktop */}
           <div className="hidden md:block">
             <a 
-              href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Pulsar%20e%20quero%20automatizar%20meu%20neg%C3%B3cio.%20Podemos%20conversar%3F"
+              href="https://wa.me/5527997118556?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Pulsar%20e%20quero%20automatizar%20meu%20neg%C3%B3cio.%20Podemos%20conversar%3F"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -89,16 +89,16 @@ const Header = () => {
                 {item.label}
               </button>
             ))}
-            <Link 
-              to="/blog"
+            <a 
+              href="https://blog.pulsarai.com.br/"
               onClick={() => setIsMenuOpen(false)}
               className="block text-white/70 hover:text-white transition-colors py-2"
             >
               Blog
-            </Link>
+            </a>
             <div className="pt-4">
               <a 
-                href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Pulsar%20e%20quero%20automatizar%20meu%20neg%C3%B3cio.%20Podemos%20conversar%3F"
+                href="https://wa.me/5527997118556?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Pulsar%20e%20quero%20automatizar%20meu%20neg%C3%B3cio.%20Podemos%20conversar%3F"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
